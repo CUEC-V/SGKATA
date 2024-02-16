@@ -24,7 +24,7 @@ Projet c# pour mettre en place un distributeur automatique de boisson chaude :
  
  How to run the application :
  
- 1 - First, you need sql server with MSSMS.
+ 1 - First, you need sql server Express with MSSMS.
  2 - Second, within MSSMS, create a database named SG. 
  3 - Third, create the two tables with Recette.sql and Ingredient.sql files provided with the solution
  4 - Fourth, open appsettings.json file located in (SG.Kata\bin\Debug\netcoreapp3.1)  and modify the 
