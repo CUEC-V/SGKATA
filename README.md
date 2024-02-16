@@ -19,6 +19,17 @@ Projet c# pour mettre en place un distributeur automatique de boisson chaude :
  Notre application serait donc développer sur c# ( WinForm .net core) 
  
  b - Elle sera donc une application autonome ne nécessitant pas de connxion à internet.
- c - Afin de faciliter le déploiement et l'utilisation, les recettes ainsi que les ingrédients seront stockées en mémoire dans un premier temps.
- Ensuite, un système de base de données pourra être mise en place pour rendre perenne son exploitation.
+ c - Afin de faciliter le déploiement et l'utilisation, les recettes ainsi que les ingrédients seront stockées dans un système de base de données pourra être mise en place pour rendre perenne son exploitation
+ sql server. 
+ 
+ How to run the application :
+ 
+ 1 - First, you need sql server with MSSMS.
+ 2 - Second, within MSSMS, create a database named SG. 
+ 3 - Third, create the two tables with Recette.sql and Ingredient.sql files provided with the solution
+ 4 - Fourth, open appsettings.json file located in (SG.Kata\bin\Debug\netcoreapp3.1)  and modify the 
+ connectingString source to indicate the appropriate server : [XXXXX]. 
+ 5 - Select SG.Kata as stard project and run. 
+ 
+ 
  
