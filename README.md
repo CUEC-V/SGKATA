@@ -29,7 +29,9 @@ Projet c# pour mettre en place un distributeur automatique de boisson chaude :
  3 - Third, create the two tables with Recette.sql and Ingredient.sql files provided with the solution
  4 - Fourth, open appsettings.json file located in (SG.Kata\bin\Debug\netcoreapp3.1)  and modify the 
  connectingString source to indicate the appropriate server : [XXXXX]. 
- 5 - Select SG.Kata as stard project and run. 
+ 5 - Select SG.Kata as stard project and run
+ 
+ Next, will write the Tests project ... and developp interfaces for adding recette and Ingredient. 
  
  
  
