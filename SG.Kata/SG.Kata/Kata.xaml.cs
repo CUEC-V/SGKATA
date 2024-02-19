@@ -24,7 +24,7 @@ namespace SG.Kata
     /// </summary>
     public partial class Kata : Window
     {
-        private IRecetteService _recetteService;
+        private IRecipeService _recetteService;
         public Kata()
         {
             InitializeComponent();
@@ -32,18 +32,18 @@ namespace SG.Kata
 
         private void KTLoaded(object sender, RoutedEventArgs e)
         {
-            _recetteService = App.ServiceProvider.GetRequiredService<IRecetteService>();
+            _recetteService = App.ServiceProvider.GetRequiredService<IRecipeService>();
 
             var recettes = _recetteService.GetAll();
 
             if (recettes.Any())
             {
                 RecetteLab.ItemsSource = recettes
-                    .OrderBy(x => x.Nom)
-                    .Select(x => new RecetteDto { Id = x.Id, Nom = $"o - {x.Nom}" })
+                    .OrderBy(x => x.Name)
+                    .Select(x => new RecetteDto { Id = x.Id, Name = $"o - {x.Name}" })
                     .ToList();
 
-                RecetteLab.DisplayMemberPath = "Nom";
+                RecetteLab.DisplayMemberPath = "Name";
                 RecetteLab.SelectedValuePath = "Id";
             }
             else
@@ -72,7 +72,7 @@ namespace SG.Kata
 
             if (recette.Ingredients.Any())
             {
-                prix = recette.Ingredients.Sum(x => Convert.ToDecimal(x.Prix) * x.Dose);
+                prix = recette.Ingredients.Sum(x => Convert.ToDecimal(x.Price) * x.Dose);
                 var tt = 1.3m * prix;
                 somme = (tt).ToString();
             }
@@ -85,15 +85,15 @@ namespace SG.Kata
 
             var items = "";
             var order = 0;
-            items += $"{recette.Nom}\n\n";
-            foreach (var item in recette.Ingredients.OrderBy(x=>x.Nom))
+            items += $"{recette.Name}\n\n";
+            foreach (var item in recette.Ingredients.OrderBy(x=>x.Name))
             {
                 ++order;
-                items += $"{order} - {item.Nom} {item.Prix} € x {item.Dose}\n";
+                items += $"{order} - {item.Name} {item.Price} € x {item.Dose}\n";
             }
 
             PrixVente.Text += items;
-            PrixVente.Text += "\n\nNB : Prix de vente : prix coûtant des recettes + marge de 30% ";
+            PrixVente.Text += "\n\nNB : Price de vente : prix coûtant des recettes + marge de 30% ";
         }
     }
 }

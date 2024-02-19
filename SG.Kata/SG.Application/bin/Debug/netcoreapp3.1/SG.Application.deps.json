@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "SG.Application/1.0.0": {
+      "SG.APPLICATION/1.0.0": {
         "dependencies": {
-          "SG.DEPOT": "1.0.0"
+          "SG.REPOSITORY": "1.0.0"
         },
         "runtime": {
-          "SG.Application.dll": {}
+          "SG.APPLICATION.dll": {}
         }
       },
       "EntityFramework/6.4.4": {
@@ -1142,27 +1142,27 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "SG.DEPOT/1.0.0": {
+      "SG.ENTITY/1.0.0": {
+        "runtime": {
+          "SG.ENTITY.dll": {}
+        }
+      },
+      "SG.REPOSITORY/1.0.0": {
         "dependencies": {
           "EntityFramework": "6.4.4",
           "Microsoft.EntityFrameworkCore": "5.0.17",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.17",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
-          "SG.ENTITE": "1.0.0"
+          "SG.ENTITY": "1.0.0"
         },
         "runtime": {
-          "SG.DEPOT.dll": {}
-        }
-      },
-      "SG.ENTITE/1.0.0": {
-        "runtime": {
-          "SG.ENTITE.dll": {}
+          "SG.REPOSITORY.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "SG.Application/1.0.0": {
+    "SG.APPLICATION/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1874,12 +1874,12 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "SG.DEPOT/1.0.0": {
+    "SG.ENTITY/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SG.ENTITE/1.0.0": {
+    "SG.REPOSITORY/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

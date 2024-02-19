@@ -1,0 +1,10 @@
+C:\GitDossiers\SGKATA\SG.Kata\SG.ENTITE\bin\Debug\netcoreapp3.1\SG.ENTITY.deps.json
+C:\GitDossiers\SGKATA\SG.Kata\SG.ENTITE\bin\Debug\netcoreapp3.1\SG.ENTITY.dll
+C:\GitDossiers\SGKATA\SG.Kata\SG.ENTITE\bin\Debug\netcoreapp3.1\SG.ENTITY.pdb
+C:\GitDossiers\SGKATA\SG.Kata\SG.ENTITE\obj\Debug\netcoreapp3.1\SG.ENTITY.csproj.AssemblyReference.cache
+C:\GitDossiers\SGKATA\SG.Kata\SG.ENTITE\obj\Debug\netcoreapp3.1\SG.ENTITY.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitDossiers\SGKATA\SG.Kata\SG.ENTITE\obj\Debug\netcoreapp3.1\SG.ENTITY.AssemblyInfoInputs.cache
+C:\GitDossiers\SGKATA\SG.Kata\SG.ENTITE\obj\Debug\netcoreapp3.1\SG.ENTITY.AssemblyInfo.cs
+C:\GitDossiers\SGKATA\SG.Kata\SG.ENTITE\obj\Debug\netcoreapp3.1\SG.ENTITY.csproj.CoreCompileInputs.cache
+C:\GitDossiers\SGKATA\SG.Kata\SG.ENTITE\obj\Debug\netcoreapp3.1\SG.ENTITY.dll
+C:\GitDossiers\SGKATA\SG.Kata\SG.ENTITE\obj\Debug\netcoreapp3.1\SG.ENTITY.pdb

@@ -12,7 +12,7 @@ namespace SG.DEPOT
     {
         public SGDbContext(DbContextOptions<SGDbContext> options) : base(options) { }
 
-        public DbSet<Recette> Recette { get; set; }
+        public DbSet<Recipe> Recipe { get; set; }
 
         public DbSet<Ingredient> Ingredient { get; set; }
 

@@ -3,10 +3,6 @@ C:\GitDossiers\SGKATA\SG.Kata\SG.Application\bin\Debug\netcoreapp3.1\SG.Applicat
 C:\GitDossiers\SGKATA\SG.Kata\SG.Application\bin\Debug\netcoreapp3.1\SG.Application.runtimeconfig.dev.json
 C:\GitDossiers\SGKATA\SG.Kata\SG.Application\bin\Debug\netcoreapp3.1\SG.Application.dll
 C:\GitDossiers\SGKATA\SG.Kata\SG.Application\bin\Debug\netcoreapp3.1\SG.Application.pdb
-C:\GitDossiers\SGKATA\SG.Kata\SG.Application\bin\Debug\netcoreapp3.1\SG.DEPOT.dll
-C:\GitDossiers\SGKATA\SG.Kata\SG.Application\bin\Debug\netcoreapp3.1\SG.ENTITE.dll
-C:\GitDossiers\SGKATA\SG.Kata\SG.Application\bin\Debug\netcoreapp3.1\SG.DEPOT.pdb
-C:\GitDossiers\SGKATA\SG.Kata\SG.Application\bin\Debug\netcoreapp3.1\SG.ENTITE.pdb
 C:\GitDossiers\SGKATA\SG.Kata\SG.Application\obj\Debug\netcoreapp3.1\SG.Application.csproj.AssemblyReference.cache
 C:\GitDossiers\SGKATA\SG.Kata\SG.Application\obj\Debug\netcoreapp3.1\SG.Application.GeneratedMSBuildEditorConfig.editorconfig
 C:\GitDossiers\SGKATA\SG.Kata\SG.Application\obj\Debug\netcoreapp3.1\SG.Application.AssemblyInfoInputs.cache
@@ -16,3 +12,7 @@ C:\GitDossiers\SGKATA\SG.Kata\SG.Application\obj\Debug\netcoreapp3.1\SG.Applicat
 C:\GitDossiers\SGKATA\SG.Kata\SG.Application\obj\Debug\netcoreapp3.1\SG.Application.dll
 C:\GitDossiers\SGKATA\SG.Kata\SG.Application\obj\Debug\netcoreapp3.1\SG.Application.pdb
 C:\GitDossiers\SGKATA\SG.Kata\SG.Application\obj\Debug\netcoreapp3.1\SG.Application.genruntimeconfig.cache
+C:\GitDossiers\SGKATA\SG.Kata\SG.Application\bin\Debug\netcoreapp3.1\SG.ENTITY.dll
+C:\GitDossiers\SGKATA\SG.Kata\SG.Application\bin\Debug\netcoreapp3.1\SG.REPOSITORY.dll
+C:\GitDossiers\SGKATA\SG.Kata\SG.Application\bin\Debug\netcoreapp3.1\SG.REPOSITORY.pdb
+C:\GitDossiers\SGKATA\SG.Kata\SG.Application\bin\Debug\netcoreapp3.1\SG.ENTITY.pdb

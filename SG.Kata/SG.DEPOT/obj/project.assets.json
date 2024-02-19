@@ -1859,14 +1859,14 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "SG.ENTITE/1.0.0": {
+      "SG.ENTITY/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/SG.ENTITE.dll": {}
+          "bin/placeholder/SG.ENTITY.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SG.ENTITE.dll": {}
+          "bin/placeholder/SG.ENTITY.dll": {}
         }
       }
     }
@@ -6342,10 +6342,10 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "SG.ENTITE/1.0.0": {
+    "SG.ENTITY/1.0.0": {
       "type": "project",
-      "path": "../SG.ENTITE/SG.ENTITE.csproj",
-      "msbuildProject": "../SG.ENTITE/SG.ENTITE.csproj"
+      "path": "../SG.ENTITE/SG.ENTITY.csproj",
+      "msbuildProject": "../SG.ENTITE/SG.ENTITY.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6355,7 +6355,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 5.0.17",
       "Microsoft.EntityFrameworkCore.Relational >= 5.0.17",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.17",
-      "SG.ENTITE >= 1.0.0"
+      "SG.ENTITY >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6365,9 +6365,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.DEPOT\\SG.DEPOT.csproj",
-      "projectName": "SG.DEPOT",
-      "projectPath": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.DEPOT\\SG.DEPOT.csproj",
+      "projectUniqueName": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.DEPOT\\SG.REPOSITORY.csproj",
+      "projectName": "SG.REPOSITORY",
+      "projectPath": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.DEPOT\\SG.REPOSITORY.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.DEPOT\\obj\\",
       "projectStyle": "PackageReference",
@@ -6391,8 +6391,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.ENTITE\\SG.ENTITE.csproj": {
-              "projectPath": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.ENTITE\\SG.ENTITE.csproj"
+            "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.ENTITE\\SG.ENTITY.csproj": {
+              "projectPath": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.ENTITE\\SG.ENTITY.csproj"
             }
           }
         }

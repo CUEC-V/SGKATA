@@ -15,8 +15,8 @@ namespace SG.DEPOT.DI
         public static void IServices(IServiceCollection services)
         {
             services.AddTransient(typeof(IRepository<>), typeof(Repository<>));
-            services.AddTransient(typeof(IRecetteDepot), typeof(RecetteDepot));
-            services.AddTransient(typeof(IIngredientDepot), typeof(IngredientDepot));
+            services.AddTransient(typeof(IRecipeRepository), typeof(RecipeRepository));
+            services.AddTransient(typeof(IIngredientRepository), typeof(IngredientRepository));
 
             services.AddDbContext<SGDbContext>(options => options.UseSqlServer(SGConfiguration.ConnectingString));
         }

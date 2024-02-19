@@ -76,11 +76,11 @@ C:\GitDossiers\SGKATA\SG.Kata\SG.Kata\bin\Debug\netcoreapp3.1\runtimes\unix\lib\
 C:\GitDossiers\SGKATA\SG.Kata\SG.Kata\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\GitDossiers\SGKATA\SG.Kata\SG.Kata\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\GitDossiers\SGKATA\SG.Kata\SG.Kata\bin\Debug\netcoreapp3.1\SG.Application.dll
-C:\GitDossiers\SGKATA\SG.Kata\SG.Kata\bin\Debug\netcoreapp3.1\SG.DEPOT.dll
-C:\GitDossiers\SGKATA\SG.Kata\SG.Kata\bin\Debug\netcoreapp3.1\SG.ENTITE.dll
 C:\GitDossiers\SGKATA\SG.Kata\SG.Kata\bin\Debug\netcoreapp3.1\SG.Application.pdb
-C:\GitDossiers\SGKATA\SG.Kata\SG.Kata\bin\Debug\netcoreapp3.1\SG.DEPOT.pdb
-C:\GitDossiers\SGKATA\SG.Kata\SG.Kata\bin\Debug\netcoreapp3.1\SG.ENTITE.pdb
 C:\GitDossiers\SGKATA\SG.Kata\SG.Kata\obj\Debug\netcoreapp3.1\UI\UIIngredient.g.cs
 C:\GitDossiers\SGKATA\SG.Kata\SG.Kata\obj\Debug\netcoreapp3.1\UI\UIIngredient.baml
 C:\GitDossiers\SGKATA\SG.Kata\SG.Kata\obj\Debug\netcoreapp3.1\SG.Kata.csproj.CopyComplete
+C:\GitDossiers\SGKATA\SG.Kata\SG.Kata\bin\Debug\netcoreapp3.1\SG.ENTITY.dll
+C:\GitDossiers\SGKATA\SG.Kata\SG.Kata\bin\Debug\netcoreapp3.1\SG.REPOSITORY.dll
+C:\GitDossiers\SGKATA\SG.Kata\SG.Kata\bin\Debug\netcoreapp3.1\SG.ENTITY.pdb
+C:\GitDossiers\SGKATA\SG.Kata\SG.Kata\bin\Debug\netcoreapp3.1\SG.REPOSITORY.pdb

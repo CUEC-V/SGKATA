@@ -8,7 +8,6 @@ namespace SG.DEPOT
 {
     public interface IRepository<T> where T : EntityBase
     {
-        //  List<T> GetAll();
         void Add(T entity);
         T FindById(string id);
         int Update(T entity);

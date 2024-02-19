@@ -10,10 +10,10 @@ GO
 
 CREATE TABLE [dbo].[Ingredient](
 	[Id] [nvarchar](450) NOT NULL,
-	[Nom] [nvarchar](max) NULL,
-	[Prix] [varchar](400) NULL,
+	[Name] [nvarchar](max) NULL,
+	[Price] [varchar](400) NULL,
 	[Dose] [int] NOT NULL,
-	[RecetteId] [nvarchar](450) NULL,
+	[RecipeId] [nvarchar](450) NULL,
  CONSTRAINT [PK_Ingredient] PRIMARY KEY CLUSTERED 
 (
 	[Id] ASC
@@ -21,11 +21,11 @@ CREATE TABLE [dbo].[Ingredient](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
 
-ALTER TABLE [dbo].[Ingredient]  WITH CHECK ADD  CONSTRAINT [FK_Ingredient_Recette_RecetteId] FOREIGN KEY([RecetteId])
+ALTER TABLE [dbo].[Ingredient]  WITH CHECK ADD  CONSTRAINT [FK_Ingredient_Recipe_RecipeId] FOREIGN KEY([RecipeId])
 REFERENCES [dbo].[Ingredient] ([Id])
 GO
 
-ALTER TABLE [dbo].[Ingredient] CHECK CONSTRAINT [FK_Ingredient_Recette_RecetteId]
+ALTER TABLE [dbo].[Ingredient] CHECK CONSTRAINT [FK_Ingredient_Recipe_RecipeId]
 GO
 
 

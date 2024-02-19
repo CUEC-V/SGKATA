@@ -1,0 +1,16 @@
+C:\GitDossiers\SGKATA\SG.Kata\SG.DEPOT\bin\Debug\netcoreapp3.1\SG.REPOSITORY.deps.json
+C:\GitDossiers\SGKATA\SG.Kata\SG.DEPOT\bin\Debug\netcoreapp3.1\SG.REPOSITORY.runtimeconfig.json
+C:\GitDossiers\SGKATA\SG.Kata\SG.DEPOT\bin\Debug\netcoreapp3.1\SG.REPOSITORY.runtimeconfig.dev.json
+C:\GitDossiers\SGKATA\SG.Kata\SG.DEPOT\bin\Debug\netcoreapp3.1\SG.REPOSITORY.dll
+C:\GitDossiers\SGKATA\SG.Kata\SG.DEPOT\bin\Debug\netcoreapp3.1\SG.REPOSITORY.pdb
+C:\GitDossiers\SGKATA\SG.Kata\SG.DEPOT\bin\Debug\netcoreapp3.1\SG.ENTITY.dll
+C:\GitDossiers\SGKATA\SG.Kata\SG.DEPOT\bin\Debug\netcoreapp3.1\SG.ENTITY.pdb
+C:\GitDossiers\SGKATA\SG.Kata\SG.DEPOT\obj\Debug\netcoreapp3.1\SG.REPOSITORY.csproj.AssemblyReference.cache
+C:\GitDossiers\SGKATA\SG.Kata\SG.DEPOT\obj\Debug\netcoreapp3.1\SG.REPOSITORY.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitDossiers\SGKATA\SG.Kata\SG.DEPOT\obj\Debug\netcoreapp3.1\SG.REPOSITORY.AssemblyInfoInputs.cache
+C:\GitDossiers\SGKATA\SG.Kata\SG.DEPOT\obj\Debug\netcoreapp3.1\SG.REPOSITORY.AssemblyInfo.cs
+C:\GitDossiers\SGKATA\SG.Kata\SG.DEPOT\obj\Debug\netcoreapp3.1\SG.REPOSITORY.csproj.CoreCompileInputs.cache
+C:\GitDossiers\SGKATA\SG.Kata\SG.DEPOT\obj\Debug\netcoreapp3.1\SG.REPOSITORY.csproj.CopyComplete
+C:\GitDossiers\SGKATA\SG.Kata\SG.DEPOT\obj\Debug\netcoreapp3.1\SG.REPOSITORY.dll
+C:\GitDossiers\SGKATA\SG.Kata\SG.DEPOT\obj\Debug\netcoreapp3.1\SG.REPOSITORY.pdb
+C:\GitDossiers\SGKATA\SG.Kata\SG.DEPOT\obj\Debug\netcoreapp3.1\SG.REPOSITORY.genruntimeconfig.cache

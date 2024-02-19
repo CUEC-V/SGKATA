@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.ENTITE\\SG.ENTITE.csproj",
-      "projectName": "SG.ENTITE",
-      "projectPath": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.ENTITE\\SG.ENTITE.csproj",
+      "projectUniqueName": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.ENTITE\\SG.ENTITY.csproj",
+      "projectName": "SG.ENTITY",
+      "projectPath": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.ENTITE\\SG.ENTITY.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.ENTITE\\obj\\",
       "projectStyle": "PackageReference",

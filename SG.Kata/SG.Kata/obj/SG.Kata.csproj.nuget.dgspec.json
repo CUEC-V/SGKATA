@@ -4,12 +4,12 @@
     "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.Kata\\SG.Kata.csproj": {}
   },
   "projects": {
-    "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.Application\\SG.Application.csproj": {
+    "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.Application\\SG.APPLICATION.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.Application\\SG.Application.csproj",
-        "projectName": "SG.Application",
-        "projectPath": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.Application\\SG.Application.csproj",
+        "projectUniqueName": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.Application\\SG.APPLICATION.csproj",
+        "projectName": "SG.APPLICATION",
+        "projectPath": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.Application\\SG.APPLICATION.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.Application\\obj\\",
         "projectStyle": "PackageReference",
@@ -33,8 +33,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.DEPOT\\SG.DEPOT.csproj": {
-                "projectPath": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.DEPOT\\SG.DEPOT.csproj"
+              "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.DEPOT\\SG.REPOSITORY.csproj": {
+                "projectPath": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.DEPOT\\SG.REPOSITORY.csproj"
               }
             }
           }
@@ -68,12 +68,12 @@
         }
       }
     },
-    "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.DEPOT\\SG.DEPOT.csproj": {
+    "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.DEPOT\\SG.REPOSITORY.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.DEPOT\\SG.DEPOT.csproj",
-        "projectName": "SG.DEPOT",
-        "projectPath": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.DEPOT\\SG.DEPOT.csproj",
+        "projectUniqueName": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.DEPOT\\SG.REPOSITORY.csproj",
+        "projectName": "SG.REPOSITORY",
+        "projectPath": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.DEPOT\\SG.REPOSITORY.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.DEPOT\\obj\\",
         "projectStyle": "PackageReference",
@@ -97,8 +97,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.ENTITE\\SG.ENTITE.csproj": {
-                "projectPath": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.ENTITE\\SG.ENTITE.csproj"
+              "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.ENTITE\\SG.ENTITY.csproj": {
+                "projectPath": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.ENTITE\\SG.ENTITY.csproj"
               }
             }
           }
@@ -156,12 +156,12 @@
         }
       }
     },
-    "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.ENTITE\\SG.ENTITE.csproj": {
+    "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.ENTITE\\SG.ENTITY.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.ENTITE\\SG.ENTITE.csproj",
-        "projectName": "SG.ENTITE",
-        "projectPath": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.ENTITE\\SG.ENTITE.csproj",
+        "projectUniqueName": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.ENTITE\\SG.ENTITY.csproj",
+        "projectName": "SG.ENTITY",
+        "projectPath": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.ENTITE\\SG.ENTITY.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.ENTITE\\obj\\",
         "projectStyle": "PackageReference",
@@ -245,8 +245,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.Application\\SG.Application.csproj": {
-                "projectPath": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.Application\\SG.Application.csproj"
+              "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.Application\\SG.APPLICATION.csproj": {
+                "projectPath": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.Application\\SG.APPLICATION.csproj"
               }
             }
           }

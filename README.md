@@ -1,5 +1,27 @@
 # SGKATA
-Projet c# pour mettre en place un distributeur automatique de boisson chaude :
+C# project to develop an automatic Hot Drink distributor :
+
+A 3-tiers models was developed : 
+
+1 - Entity for persistency
+2 - Repository for database access 
+3 - Service/Application for services 
+4 - A client : Nunit tests 
+5 - WPF (optional) to view in real world 
+
+
+ How to run the application :
+ 
+ 1 - First, you need sql server Express with MSSMS.
+ 2 - Second, within MSSMS, create a database named SG. 
+ 3 - Third, create the two tables with Recette.sql and Ingredient.sql files provided with the solution
+ 4 - Fourth, open appsettings.json file located in (SG.Kata\bin\Debug\netcoreapp3.1)  and modify the 
+ connectingString source to indicate the appropriate server : [XXXXX]. 
+ 5 - Select SG.Kata as stard project and run
+ 
+ Next, we write the Tests project ... and develop interfaces for adding recipe and Ingredient. 
+ 
+ 
 
 1 - Avant de développer cette application, il y a lieu de s'intérogger sur un certain nombre d'aspects :
 
@@ -22,16 +44,7 @@ Projet c# pour mettre en place un distributeur automatique de boisson chaude :
  c - Afin de faciliter le déploiement et l'utilisation, les recettes ainsi que les ingrédients seront stockées dans un système de base de données pourra être mise en place pour rendre perenne son exploitation
  sql server. 
  
- How to run the application :
- 
- 1 - First, you need sql server Express with MSSMS.
- 2 - Second, within MSSMS, create a database named SG. 
- 3 - Third, create the two tables with Recette.sql and Ingredient.sql files provided with the solution
- 4 - Fourth, open appsettings.json file located in (SG.Kata\bin\Debug\netcoreapp3.1)  and modify the 
- connectingString source to indicate the appropriate server : [XXXXX]. 
- 5 - Select SG.Kata as stard project and run
- 
- Next, will write the Tests project ... and developp interfaces for adding recette and Ingredient. 
+
  
  
  

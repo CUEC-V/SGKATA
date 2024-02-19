@@ -9,8 +9,9 @@ namespace SG.Application.DI
     {
         public static void IServices(IServiceCollection services)
         {
-            services.AddTransient(typeof(IRecetteService), typeof(RecetteService));
+            services.AddTransient(typeof(IRecipeService), typeof(RecipeService));
             services.AddTransient(typeof(IIngredientService), typeof(IngredientService));
+            services.AddLogging();
 
             DEPOT.DI.DenpendancyInjection.IServices(services);
         }

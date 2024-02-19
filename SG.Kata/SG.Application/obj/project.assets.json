@@ -1825,7 +1825,17 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "SG.DEPOT/1.0.0": {
+      "SG.ENTITY/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/SG.ENTITY.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SG.ENTITY.dll": {}
+        }
+      },
+      "SG.REPOSITORY/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -1833,23 +1843,13 @@
           "Microsoft.EntityFrameworkCore": "5.0.17",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.17",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
-          "SG.ENTITE": "1.0.0"
+          "SG.ENTITY": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/SG.DEPOT.dll": {}
+          "bin/placeholder/SG.REPOSITORY.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SG.DEPOT.dll": {}
-        }
-      },
-      "SG.ENTITE/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/SG.ENTITE.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SG.ENTITE.dll": {}
+          "bin/placeholder/SG.REPOSITORY.dll": {}
         }
       }
     }
@@ -6294,20 +6294,20 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "SG.DEPOT/1.0.0": {
+    "SG.ENTITY/1.0.0": {
       "type": "project",
-      "path": "../SG.DEPOT/SG.DEPOT.csproj",
-      "msbuildProject": "../SG.DEPOT/SG.DEPOT.csproj"
+      "path": "../SG.ENTITE/SG.ENTITY.csproj",
+      "msbuildProject": "../SG.ENTITE/SG.ENTITY.csproj"
     },
-    "SG.ENTITE/1.0.0": {
+    "SG.REPOSITORY/1.0.0": {
       "type": "project",
-      "path": "../SG.ENTITE/SG.ENTITE.csproj",
-      "msbuildProject": "../SG.ENTITE/SG.ENTITE.csproj"
+      "path": "../SG.DEPOT/SG.REPOSITORY.csproj",
+      "msbuildProject": "../SG.DEPOT/SG.REPOSITORY.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "SG.DEPOT >= 1.0.0"
+      "SG.REPOSITORY >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6343,8 +6343,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.DEPOT\\SG.DEPOT.csproj": {
-              "projectPath": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.DEPOT\\SG.DEPOT.csproj"
+            "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.DEPOT\\SG.REPOSITORY.csproj": {
+              "projectPath": "C:\\GitDossiers\\SGKATA\\SG.Kata\\SG.DEPOT\\SG.REPOSITORY.csproj"
             }
           }
         }

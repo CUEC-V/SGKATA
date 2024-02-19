@@ -8,6 +8,6 @@ namespace SG.Kata.Models
     {
         public string Id { get; set; }
 
-        public string Nom { get; set; }
+        public string Name { get; set; }
     }
 }
