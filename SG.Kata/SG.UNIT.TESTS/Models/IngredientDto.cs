@@ -1,4 +1,4 @@
-﻿using SG.ENTITY;
+﻿using SG.ENTITE;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;

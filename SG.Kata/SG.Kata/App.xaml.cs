@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using SG.REPOSITORY;
+using SG.DEPOT;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -30,7 +30,7 @@ namespace SG.Kata
 
             Configuration = builder.Build();
 
-            REPOSITORY.Parameter.SGConfiguration.ConnectingString = Configuration.GetSection("ConnectionStrings")[REPOSITORY.Parameter.SGConfiguration.ConnectingStringKey];
+            DEPOT.Parametre.SGConfiguration.ConnectingString = Configuration.GetSection("ConnectionStrings")[DEPOT.Parametre.SGConfiguration.ConnectingStringKey];
 
             var serviceCollection = new ServiceCollection();
             ConfigureServices(serviceCollection);

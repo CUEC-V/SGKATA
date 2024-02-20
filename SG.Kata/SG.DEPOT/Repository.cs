@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SG.ENTITY;
+using SG.ENTITE;
 using System;
 using System.Linq;
 
-namespace SG.REPOSITORY
+namespace SG.DEPOT
 {
     public class Repository<T> : IRepository<T> where T : EntityBase
     {

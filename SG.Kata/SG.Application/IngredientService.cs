@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
-using SG.REPOSITORY;
-using SG.ENTITY;
+using SG.DEPOT;
+using SG.ENTITE;
 using System;
 using System.Collections.Generic;
 using System.Text;

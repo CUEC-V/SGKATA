@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SG.ENTITY;
+using SG.ENTITE;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text; 
+using System.Text;
 
-namespace SG.REPOSITORY
+namespace SG.DEPOT
 {
     public class IngredientRepository : Repository<Ingredient>, IIngredientRepository
     {

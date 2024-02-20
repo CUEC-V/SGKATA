@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SG.REPOSITORY.Parameter
+namespace SG.DEPOT.Parametre
 {
     public class SGConfiguration
     {

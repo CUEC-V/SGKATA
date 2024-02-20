@@ -13,7 +13,7 @@ namespace SG.Application.DI
             services.AddTransient(typeof(IIngredientService), typeof(IngredientService));
             services.AddLogging();
 
-            REPOSITORY.DI.DenpendancyInjection.IServices(services);
+            DEPOT.DI.DenpendancyInjection.IServices(services);
         }
     }
 }

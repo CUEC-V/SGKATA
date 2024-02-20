@@ -1,12 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SG.REPOSITORY.Parameter;
-using SG.ENTITY;
+using SG.DEPOT.Parametre;
+using SG.ENTITE;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Text;
 
-namespace SG.REPOSITORY
+namespace SG.DEPOT
 {
     public class SGDbContext : DbContext
     {

@@ -1,14 +1,14 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.Extensions.DependencyInjection;
-using SG.REPOSITORY.Parameter;
+using SG.DEPOT.Parametre;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
 using System.Text;
 using static System.Net.Mime.MediaTypeNames;
 
-namespace SG.REPOSITORY.DI
+namespace SG.DEPOT.DI
 {
     public class DenpendancyInjection
     {
