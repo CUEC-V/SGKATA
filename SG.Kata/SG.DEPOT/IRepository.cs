@@ -1,10 +1,10 @@
-﻿using SG.ENTITE;
+﻿using SG.ENTITY;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SG.DEPOT
+namespace SG.REPOSITORY
 {
     public interface IRepository<T> where T : EntityBase
     {

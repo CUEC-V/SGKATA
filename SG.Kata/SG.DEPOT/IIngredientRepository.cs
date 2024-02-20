@@ -1,7 +1,7 @@
-﻿using SG.ENTITE;
+﻿using SG.ENTITY;
 using System.Collections.Generic;
 
-namespace SG.DEPOT
+namespace SG.REPOSITORY
 {
     public interface IIngredientRepository : IRepository<Ingredient>
     {

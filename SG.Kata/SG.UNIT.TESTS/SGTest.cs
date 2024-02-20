@@ -3,9 +3,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using NUnit.Framework;
 using SG.Application;
-using SG.DEPOT;
-using SG.DEPOT.Parametre;
-using SG.ENTITE;
+using SG.REPOSITORY;
+using SG.REPOSITORY.Parameter;
+using SG.ENTITY;
 using SG.UNIT.TESTS.Models;
 using System;
 using System.Linq;
@@ -100,7 +100,7 @@ namespace SG.UNIT.TESTS
             IServices(services);
             services.AddDbContext<SGDbContext>(options =>
             {
-                var connectionString = SGConfiguration.ConnectingString;//Configuration.GetConnectionString("DefaultConnection");
+                var connectionString = SGConfiguration.ConnectingString;
                 options.UseSqlServer(connectionString);
             });
         }

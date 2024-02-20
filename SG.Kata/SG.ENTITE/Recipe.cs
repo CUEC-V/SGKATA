@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace SG.ENTITE
+namespace SG.ENTITY
 {
     public class Recipe : EntityBase
     {

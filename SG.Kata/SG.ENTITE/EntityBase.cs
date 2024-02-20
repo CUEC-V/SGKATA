@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SG.ENTITE
+namespace SG.ENTITY
 {
     public class EntityBase
     {

@@ -1,4 +1,4 @@
-﻿using SG.ENTITE;
+﻿using SG.ENTITY;
 using System.Collections.Generic;
 
 namespace SG.Application
